@@ -1,0 +1,210 @@
+:root {
+    --button: #FF0000;
+    --main-background: #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    display: flex;
+}
+
+.container>div {
+    flex: 1;
+    /*grow*/
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    position: inline;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    position: inline;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 55px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    position: inline;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-top: -32px;
+    font-size: 14px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    position: inline;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    position: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 55px;
+    padding-left: 390px;
+    padding-top: 40px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 104px;
+}
+
+li {
+    display: inline;
+    margin-left: 0px;
+}
+
+.ultopo {
+    overflow: hidden;
+    white-space: nowrap;
+    word-spacing: 90px;
+    cursor: pointer;
+}
+
+ul {
+    overflow: hidden;
+    white-space: nowrap;
+    word-spacing: 150px;
+    cursor: pointer;
+}
+
+.ulFooter {
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: -1370px;
+}
+
+.menufirst {
+    font-family: 'Roboto', sans-serif;
+    position: inline;
+    display: fixed;
+    margin: 25px 190px 0px 25px;
+}
+
+.menuseccond {
+    font-family: 'Roboto', sans-serif;
+    position: inline;
+    white-space: nowrap;
+    margin-top: 54px;
+    display: fixed;
+    margin-left: -45px;
+}
+
+input[type=search] {
+    width: 190px;
+    border-radius: 5px;
+    color: #AFB6C2;
+    border: 2px solid #868686;
+}
+
+.textSearch {
+    background-image: url("Images/icon-search.svg");
+    background-position: left;
+    background-position-x: 10px;
+    position: left;
+    padding: 12px 10px 10px 35px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.imgGrande {
+    margin-left: 150px;
+}
+
+.square {
+    padding-top: 90px;
+    margin-top: -195px;
+    margin-left: 160px;
+    padding-right: 10px;
+    padding-left: 20px;
+    height: 900px;
+    width: 800px;
+    background-color: var(--main-background);
+}
+
+.buttonCompra {
+    background-color: var(--button);
+    color: white;
+    border: none;
+    width: 280px;
+    height: 100px;
+    margin-left: 48px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.buttonCompra:active {
+    box-shadow: 0 5px rgb(204, 3, 3);
+    transform: translateY(4px);
+}
+
+.button {
+    border: none;
+    margin-right: 19px;
+    cursor: pointer;
+}
+
+.buttonCentral {
+    color: var(--button);
+    border: none;
+    border-bottom: 4px solid;
+    margin-right: 15px;
+}
+
+.button:active {
+    box-shadow: 0 5px #9C9696;
+    transform: translateY(4px);
+}
+
+.buttonCentral:active {
+    box-shadow: 0 5px;
+    transform: translateY(4px);
+}
+
+.tresfotos {
+    display: inline;
+    white-space: nowrap;
+}
+
+.footer {
+    padding-top: 18px;
+    height: 220px;
+    display: inline-flex;
+    background-color: #d0d0d0;
+}
+
+.blackSquare {
+    margin: -172px 0px 0px 1027px;
+    height: 225px;
+    width: 304px;
+    background-color: black;
+}
+
+.imageExploreArrow {
+    padding-left: 216px;
+    margin-top: -142px;
+    text-align: center;
+    margin-bottom: 30px;
+}
